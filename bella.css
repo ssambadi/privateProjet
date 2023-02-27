@@ -387,7 +387,8 @@ body{
    position: relative;
    top: -43rem;
    display: flex; 
-   margin-bottom: 2%;
+  /* margin-bottom: 2%;*/
+    margin-bottom: 0px;
 }
 .main >div:nth-child(2)>div:nth-child(11)>div:nth-child(1){
     background-image: url("images/Logo.png");
