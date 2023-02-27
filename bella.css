@@ -24,7 +24,7 @@ body{
     grid-template-columns:repeat(2,1fr);
     grid-gap: 1%;
 } 
-main{
+.main{
     height: fit-content;
 }
 /* header */
