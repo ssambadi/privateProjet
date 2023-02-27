@@ -385,10 +385,11 @@ body{
 .main >div:nth-child(2)>div:nth-child(11){
     width: var(--largBloc);
    position: relative;
-   top: -43rem;
+   /* top: -43rem; */
    display: flex; 
   /* margin-bottom: 2%;*/
     margin-bottom: 0px;
+    margin-top: -43rem;
    background-color:red;
 }
 .main >div:nth-child(2)>div:nth-child(11)>div:nth-child(1){
