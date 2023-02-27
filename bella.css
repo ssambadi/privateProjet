@@ -24,9 +24,7 @@ body{
     grid-template-columns:repeat(2,1fr);
     grid-gap: 1%;
 } 
-.main{
-    height: fit-content;
-}
+
 /* header */
 .main >div:nth-child(1){
     width: var(--largBloc);
@@ -431,6 +429,9 @@ body{
     font-size: small;
     padding-top: 2.5%;
 }
+ .main{
+    height: fit-content;
+    }
  .main >div:nth-child(2)>div:nth-child(12){
     display: none;
  }
@@ -555,9 +556,6 @@ body{
     .main >div:nth-child(1)>div:nth-child(2){
         display: none;
     }
-    .main{
-    height: fit-content;
-}
     .main >div:nth-child(1)>div:nth-child(1){
         width: var(--largBloc45);
          margin-left: 0rem;
