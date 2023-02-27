@@ -555,6 +555,9 @@ body{
     .main >div:nth-child(1)>div:nth-child(2){
         display: none;
     }
+    .main{
+    height: fit-content;
+}
     .main >div:nth-child(1)>div:nth-child(1){
         width: var(--largBloc45);
          margin-left: 0rem;
