@@ -24,7 +24,9 @@ body{
     grid-template-columns:repeat(2,1fr);
     grid-gap: 1%;
 } 
-
+main{
+    height: fit-content;
+}
 /* header */
 .main >div:nth-child(1){
     width: var(--largBloc);
@@ -390,7 +392,6 @@ body{
   /* margin-bottom: 2%;*/
     margin-bottom: 0px;
     margin-top: -43rem;
-   background-color:red;
 }
 .main >div:nth-child(2)>div:nth-child(11)>div:nth-child(1){
     background-image: url("images/Logo.png");
